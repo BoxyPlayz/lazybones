@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       lazybones-css:
-        specifier: link:..\..\AppData\Local\pnpm\global\5\node_modules\lazybones-css
-        version: link:../../AppData/Local/pnpm/global/5/node_modules/lazybones-css
+        specifier: 1.2.5
+        version: 1.2.5
       preact:
         specifier: ^10.27.2
         version: 10.27.2
@@ -1111,6 +1111,9 @@ packages:
 
   kolorist@1.8.0:
     resolution: {integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==}
+
+  lazybones-css@1.2.5:
+    resolution: {integrity: sha512-+1ff//qtxz8Ovm2k70ZSPujbn5p+Kgh4zXgMatv3hAAInLvMCuHU/OveAnpioHGRIDtSyF0Rh99agBNhnXqmnA==}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -2690,6 +2693,8 @@ snapshots:
       json-buffer: 3.0.1
 
   kolorist@1.8.0: {}
+
+  lazybones-css@1.2.5: {}
 
   levn@0.4.1:
     dependencies:
